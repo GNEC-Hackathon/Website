@@ -4,11 +4,14 @@
   "description": "template for mdb-react-ui-kit",
   "private": true,
   "dependencies": {
+    "@react-three/drei": "^9.57.3",
+    "@react-three/fiber": "^8.12.0",
+    "@types/three": "^0.149.0",
+    "mdb-react-ui-kit": "./mdb-react-ui-kit-5.1.0.tgz",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-    "mdb-react-ui-kit": "./mdb-react-ui-kit-5.1.0.tgz"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "three": "^0.150.1"
   }
 }
