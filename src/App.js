@@ -15,7 +15,7 @@ function App() {
         <GlobeModel position={[0, -2, 0]} scale={[0.04, 0.04, 0.04]}/>
         <OrbitControls enableZoom={false} enablePan={false}/>
       </Canvas>
-      <p style={{position: "absolute", left: "50vw", top: "23vh", fontFamily: "Montserrat", fontSize: 40}}>BIG STATEMENT HERE</p>
+      <p style={{position: "absolute", left: "50vw", top: "23vh", fontFamily: "Montserrat", fontSize: 40}}>Connecting Through Doing</p>
       <img src={"./assets/images/TopTransition.png"} style={{width: "100%", marginTop: -250}}/>
       <div style={{width: "100%", backgroundColor:  "#171717", padding: 50, marginTop: -250}}>
         <div style={{flexDirection: "row",  display: "flex"}}>
