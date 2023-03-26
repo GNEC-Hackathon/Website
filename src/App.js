@@ -43,8 +43,8 @@ function App() {
           <div style={{width: "30%", paddingLeft: 25, paddingRight: 25}}>
             <h1 style={{fontFamily: "Montserrat", marginBottom: 30, fontSize: 25, color: "#A4E9FF", fontWeight: "bold", textAlign: "left"}}>Topic & Theme</h1>
             <ol style={{color: "#D5D5D5", fontSize: 14, fontFamily: "Montserrat"}}>
-              <li style={{marginBottom: 15}}>The goal of this hackathon is to promote connections among non-profit and non-governmental organizations and help them find sponsors.</li>
-              <li style={{marginBottom: 15}}>Specific guidelines and instructions will be announced in the opening ceremony.</li>
+              <li style={{marginBottom: 15}}>The general goal of this hackathon is to promote connections among non-profit and non-governmental organizations and help them find sponsors.</li>
+              <li style={{marginBottom: 15}}>Specific theme & tracks will be announced in the opening ceremony.</li>
             </ol>
           </div>
           <div style={{width: "30%", paddingRight: 50, paddingLeft: 25}}>
