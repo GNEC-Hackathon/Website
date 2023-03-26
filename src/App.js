@@ -57,9 +57,11 @@ function App() {
           </div>
         </div>
         </center>
-        <img src={"./assets/images/Slate.png"} style={{width: "100%", marginLeft: -50}}/>
+        <img src={"./assets/images/Slate.png"} style={{width: "100%", maxWidth: 1000, marginLeft: -50}}/>
       </div>
-      <img src={"./assets/images/Roadmap.png"} style={{width: "100%"}}/>
+      <div style={{width: "100%", backgroundColor: "#171717"}}>
+        <img src={"./assets/images/Roadmap.png"} style={{width: "100%", maxWidth: 1000}}/>
+      </div>
       <center style={{backgroundColor: "#fff", width: "100%", padding: 100}}>
       <p style={{fontFamily: "Montserrat", color: "#A4E9FF", fontWeight: "bold"}}>Thank you to our</p>
         <h1 style={{fontFamily: "Montserrat", fontSize: 40, color: "#171717", fontWeight: "bold", marginBottom: 50}}>SPONSORS</h1>
