@@ -62,7 +62,7 @@ export default function App() {
         </MDBCollapse>
 
         <MDBNavbarBrand href='#'>
-            <MDBBtn outline rounded color='dark' style={{fontFamily: "Montserrat", borderWidth: 1, fontSize: 14}}>
+            <MDBBtn href='https://discord.gg/n5pcCHcGC6' target='_blank' outline rounded color='dark' style={{fontFamily: "Montserrat", borderWidth: 1, fontSize: 14}}>
                 Register
             </MDBBtn>
         </MDBNavbarBrand>
