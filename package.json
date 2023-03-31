@@ -2,7 +2,7 @@
   "name": "mdb-react-template",
   "version": "5.1.0",
   "description": "template for mdb-react-ui-kit",
-  "homepage": "http://GNEC-Hackathon.github.io/Website",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.57.3",
