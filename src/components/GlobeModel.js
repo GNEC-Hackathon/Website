@@ -24,7 +24,10 @@ export default function GlobeModel(props) {
         geometry={nodes.flatEarth_lands.geometry}
         rotation={[Math.PI / 2, 0, 0]}
       >
-        <meshBasicMaterial color="green"/>
+        <meshBasicMaterial color="#00ff47" reflectivity={
+          1
+        } 
+        />
       </mesh>
       <mesh
         castShadow
@@ -32,7 +35,10 @@ export default function GlobeModel(props) {
         geometry={nodes.flatEarth_sea.geometry}
         rotation={[Math.PI / 2, 0, 0]}
       >
-        <meshBasicMaterial color="blue"/>
+        <meshBasicMaterial color="#00e3ff" reflectivity={
+          1
+        }
+         />
       </mesh>
     </group>
   );

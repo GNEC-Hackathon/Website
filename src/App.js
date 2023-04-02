@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { MDBAnimatedNavbar, MDBBtn, MDBContainer, MDBNavbarLink, MDBCol, MDBRow} from 'mdb-react-ui-kit';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { Box, OrbitControls } from '@react-three/drei';
+import { Box, OrbitControls, SpotLight } from '@react-three/drei';
 
 import NavBar from './components/NavBar';
 import GlobeModel from './components/GlobeModel';
@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Canvas className="home" style={{width: "100%", backgroundColor: "transparent", overflow: "show", height: "100vh"}}>
-        <ambientLight />
+        {/* <ambientLight /> */}
         <GlobeModel position={[0, -2.1, 0]} scale={[0.04, 0.04, 0.04]}/>
         <OrbitControls enableZoom={false} enablePan={false}/>
       </Canvas>
@@ -45,24 +45,23 @@ function App() {
             <MDBCol size='6' sm='3'>
               <h1 style={{fontFamily: "Montserrat", marginBottom: 30, fontSize: 25, color: "#A4E9FF", fontWeight: "bold", textAlign: "left"}}>Submission Guidelines</h1>
               <ol style={{color: "#D5D5D5", fontSize: 14, fontFamily: "Montserrat"}}>
-                <li style={{marginBottom: 15}}>Each team must submit a 5 minute or less Youtube video.</li>
-                <li style={{marginBottom: 15}}>Code should be submitted to Github and remain public.</li>
-                <li style={{marginBottom: 15}}>Cross submission are NOT allowed.</li>
-                <li>Resubmission and prior work are NOT allowed.</li>
+                <li style={{marginBottom: 15}}>Each team must submit a 5 minute or less YouTube video regarding their project.</li>
+                <li style={{marginBottom: 15}}>Any code should be submitted as a ZIP file and other projects  should be submitted through a slideshow or PDF.</li>
+                <li>Re-submission/Cross-submissions and prior work are NOT allowed.</li>
               </ol>
             </MDBCol>
             <MDBCol size='6' sm='3'>
               <h1 style={{fontFamily: "Montserrat", marginBottom: 30, fontSize: 25, color: "#A4E9FF", fontWeight: "bold", textAlign: "left"}}>Topic & Theme</h1>
               <ol style={{color: "#D5D5D5", fontSize: 14, fontFamily: "Montserrat"}}>
-                <li style={{marginBottom: 15}}>The general goal of this hackathon is to promote connections among non-profit and non-governmental organizations and help them find sponsors.</li>
-                <li style={{marginBottom: 15}}>Specific theme & tracks will be announced in the opening ceremony.</li>
+                <li style={{marginBottom: 15}}>The goal of this hackathon is to promote connections among non-profit and non-governmental organizations and help them find sponsors.</li>
+                <li style={{marginBottom: 15}}> Specific guidelines and instructions will be announced in the opening ceremony.</li>
               </ol>
             </MDBCol>
             <MDBCol size='6' sm='3'>
               <h1 style={{fontFamily: "Montserrat", marginBottom: 30, fontSize: 25, color: "#A4E9FF", fontWeight: "bold", textAlign: "left"}}>Team Info</h1>
               <ol style={{color: "#D5D5D5", fontSize: 14, fontFamily: "Montserrat"}}>
                 <li style={{marginBottom: 15}}>Team members should be no more than five people.</li>
-                <li style={{marginBottom: 15}}>College students from all over the world are welcome to attend.</li>
+                <li style={{marginBottom: 15}}>Everyone is welcome to attend.</li>
                 <li>You may group up by yourself, or attend our group formation event to find your teammates.</li>
               </ol>
             </MDBCol>
