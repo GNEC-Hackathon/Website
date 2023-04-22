@@ -30,13 +30,13 @@ function App() {
           <MDBCol size='12' sm='5'>
             <h1 style={{fontFamily: "Montserrat", fontSize: 40, color: "white", fontWeight: "bold"}}>ABOUT</h1>
             <p style={{fontFamily: "Montserrat", color: "#A4E9FF", fontWeight: "bold"}}>GNEC Hackathon</p>
-            <p style={{fontFamily: "Montserrat", color: "#D5D5D5"}}>This hackathon is hosted by GNEC (Global NGO Executive Community), which promotes connections between non-profit and non-governmental organizations and help them find sponsors. Through our hackathon, we hope to award those who create innovative solutions while simultaneously look for talents to join our team.</p>
+            <p style={{fontFamily: "Montserrat", color: "#D5D5D5"}}>This hackathon is hosted by GNEC (Global NGO Executive Committee), which promotes connections between non-profit and non-governmental organizations and help them find sponsors. Through our hackathon, we hope to award those who create innovative solutions while simultaneously look for talents to join our team.</p>
           </MDBCol>
           <MDBCol size='12' sm='5'>
             <img src={"./assets/images/Main.png"} style={{width: "100%"}}/>
           </MDBCol>
         </MDBRow>
-        <center className='rules'>
+        <center className='rules' style={{marginTop: "20%", marginBottom: "20%"}}>
           <h1 style={{fontFamily: "Montserrat", fontSize: 40, color: "white", fontWeight: "bold", marginTop: 100, marginBottom: 25}}>RULES</h1>
           <MDBRow style={{
             width: "100%",
@@ -67,18 +67,20 @@ function App() {
             </MDBCol>
         </MDBRow>
         </center>
-        <img className='prizes' src={"./assets/images/Slate.png"} style={{width: "100%", maxWidth: 1000, marginLeft: -50}}/>
+        <center>
+          <img className='prizes' src={"./assets/images/Slate.png"} style={{width: "100%", maxWidth: 1000, marginLeft: -50}}/>
+        </center>
       </div>
       <center className='roadmap' style={{width: "100%", backgroundColor: "#171717"}}>
         <h1 style={{fontFamily: "Montserrat", fontSize: 40, color: "white", fontWeight: "bold", marginBottom: 25}}>ROADMAP</h1>
         <img src={"./assets/images/Roadmap.png"} style={{width: "100%", maxWidth: 1000}}/>
       </center>
-      <center style={{backgroundColor: "#fff", width: "100%", padding: 100}}>
+      <center style={{backgroundColor: "#fff", width: "100%", padding: 100, marginTop: "10%"}}>
       <p style={{fontFamily: "Montserrat", color: "#A4E9FF", fontWeight: "bold"}}>Thank you to our</p>
         <h1 className='sponsors' style={{fontFamily: "Montserrat", fontSize: 40, color: "#171717", fontWeight: "bold", marginBottom: 50}}>SPONSORS</h1>
         <img src={"./assets/images/Sponsors.png"} style={{width: "100%"}}/>
         <p style={{fontFamily: "Montserrat", color: "#A4E9FF", fontWeight: "bold", marginTop: 150}}>Thank you to our</p>
-        <h1 className='partners' style={{fontFamily: "Montserrat", fontSize: 40, color: "#171717", fontWeight: "bold", marginBottom: 50}}>Partners</h1>
+        <h1 className='partners' style={{fontFamily: "Montserrat", fontSize: 40, color: "#171717", fontWeight: "bold", marginBottom: 50}}>PARTNERS</h1>
         <img src={"./assets/images/Partners.png"} style={{width: "100%"}}/>
       </center>
       <NavBar />
