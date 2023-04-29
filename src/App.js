@@ -30,7 +30,7 @@ function App() {
           <MDBCol size='12' sm='5'>
             <h1 style={{fontFamily: "Montserrat", fontSize: 40, color: "white", fontWeight: "bold"}}>ABOUT</h1>
             <p style={{fontFamily: "Montserrat", color: "#A4E9FF", fontWeight: "bold"}}>GNEC Hackathon</p>
-            <p style={{fontFamily: "Montserrat", color: "#D5D5D5"}}>This hackathon is hosted by GNEC (Global NGO Executive Committee), which promotes connections between non-profit and non-governmental organizations and help them find sponsors. Through our hackathon, we hope to award those who create innovative solutions while simultaneously look for talents to join our team.</p>
+            <p style={{fontFamily: "Montserrat", color: "#D5D5D5"}}>This hackathon is hosted by GNEC (Global NGO Executive Committee), which promotes connections between non-profit and non-governmental organizations and help them find sponsors. Through our hackathon, we hope to award those who create innovative solutions.</p>
           </MDBCol>
           <MDBCol size='12' sm='5'>
             <img src={"./assets/images/Main.png"} style={{width: "100%"}}/>
