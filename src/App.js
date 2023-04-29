@@ -8,7 +8,7 @@ import GlobeModel from './components/GlobeModel';
 
 function App() {
   return (
-    <div>
+    <div style={{backgroundColor: "black"}}>
       <Canvas className="home" style={{width: "100%", backgroundColor: "transparent", overflow: "show", height: "100vh"}}>
         {/* <ambientLight /> */}
         <GlobeModel position={[0, -2.1, 0]} scale={[0.04, 0.04, 0.04]}/>

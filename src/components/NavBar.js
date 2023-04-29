@@ -29,7 +29,7 @@ export default function App() {
   return (
     <MDBAnimatedNavbar style={{zIndex: 1e101, position: "fixed", top: 0, width: "100%", boxShadow: windowScrollY == 0 ? "none" : 
     "0px 0px 10px 0px rgba(0, 0, 0, 0.2)"
-    , backgroundColor: "#fff"}} light expand='lg'>
+    , backgroundColor: "black"}} dark expand='lg'>
       <MDBContainer fluid>
         <MDBNavbarBrand href='#'>
             <img src='./assets/images/gnec.png' alt='logo' width={150}/>
@@ -42,7 +42,7 @@ export default function App() {
           style={{width: 50, height: 50, borderRadius: 50, borderWidth: 1, border: "1px solid #000", justifyContent: "center", alignItems: "center", zIndex: 1e10}}
           onClick={() => setShowBasic(!showBasic)}
         >
-          <MDBIcon icon='bars' style={{color: "#121212"}} fas />
+          <MDBIcon icon='bars' style={{color: "#fff"}} fas />
         </MDBNavbarToggler>
 
         <MDBCollapse navbar center show={showBasic}>
@@ -83,7 +83,7 @@ export default function App() {
         </MDBCollapse>
 
         <MDBNavbarBrand href='#'>
-            <MDBBtn href='https://discord.gg/n5pcCHcGC6' target='_blank' outline rounded color='dark' style={{fontFamily: "Montserrat", borderWidth: 1, fontSize: 14}}>
+            <MDBBtn href='https://discord.gg/n5pcCHcGC6' target='_blank' outline rounded color='light' style={{fontFamily: "Montserrat", borderWidth: 1, fontSize: 14}}>
                 Register
             </MDBBtn>
         </MDBNavbarBrand>
