@@ -73,7 +73,7 @@ function App() {
       </div>
       <center className='roadmap' style={{width: "100%", backgroundColor: "#171717"}}>
         <h1 style={{fontFamily: "Montserrat", fontSize: 40, color: "white", fontWeight: "bold", marginBottom: 25}}>ROADMAP</h1>
-        <img src={"./assets/images/Roadmap.png"} style={{width: "100%", maxWidth: 1000}}/>
+        <img src={"./assets/images/Roadmap.png"} style={{width: "100%", maxWidth: 1000, marginBottom: -1}}/>
       </center>
       <center style={{backgroundColor: "#fff", width: "100%", padding: 100, marginTop: 0}}>
         <p style={{fontFamily: "Montserrat", color: "#A4E9FF", fontWeight: "bold", marginTop: 150}}>Thank you to our</p>
