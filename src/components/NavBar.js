@@ -31,7 +31,7 @@ export default function App() {
     "0px 0px 10px 0px rgba(0, 0, 0, 0.2)"
     , backgroundColor: "black"}} dark expand='lg'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>
+        <MDBNavbarBrand href='https://gnec.ngo'>
             <img src='./assets/images/gnec.png' alt='logo' width={150}/>
         </MDBNavbarBrand>
 
