@@ -9,8 +9,9 @@ import GlobeModel from './components/GlobeModel';
 function App() {
 
   useEffect(() => {
-    if (window.location.href.includes("gnec-hackathon.github.io")) {
-      window.location.href = "https://gnec.ngo/hackathon-2023";
+    if (window.self == window.top && !window.location.href.includes("localhost"))
+    {
+      window.location.href = "https://gnec.ngo/hackathon";
     }
   })
 
@@ -26,6 +27,10 @@ function App() {
         <p style={{fontFamily: "Montserrat", fontSize: "2rem", color: "white", fontWeight: "bold", color: "#fff",
         textShadow: "0px 0px 10px rgba(0, 0, 0, 1)"}}>
           {"< Connecting Through Doing />"}
+        </p>
+        <p style={{fontFamily: "Montserrat", fontSize: "1rem", color: "white", fontWeight: "bold", color: "#fff",
+        textShadow: "0px 0px 10px rgba(0, 0, 0, 1)"}}>
+          {"Register Now On Devpost"}
         </p>
       </div>
       <img src={"./assets/images/TopTransition.png"} style={{width: "100%", marginTop: -600}}/>
