@@ -83,7 +83,7 @@ export default function App() {
         </MDBCollapse>
 
         <MDBNavbarBrand href='#'>
-            <MDBBtn href='https://discord.gg/n5pcCHcGC6' target='_blank' outline rounded color='light' style={{fontFamily: "Montserrat", borderWidth: 1, fontSize: 14}}>
+            <MDBBtn href='https://devpost.com/submit-to/17998-gnec-hackathon/manage/submissions' target='_blank' outline rounded color='light' style={{fontFamily: "Montserrat", borderWidth: 1, fontSize: 14}}>
                 Register
             </MDBBtn>
         </MDBNavbarBrand>
