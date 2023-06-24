@@ -7,6 +7,13 @@ import NavBar from './components/NavBar';
 import GlobeModel from './components/GlobeModel';
 
 function App() {
+
+  useEffect(() => {
+    if (window.location.href == "https://gnec-hackathon.github.io/Website") {
+      window.location.href = "https://gnec.ngo/hackathon-2023";
+    }
+  })
+
   return (
     <div style={{backgroundColor: "black"}}>
       <Canvas className="home" style={{width: "100%", backgroundColor: "transparent", overflow: "show", height: "100vh"}}>
