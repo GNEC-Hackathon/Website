@@ -9,7 +9,7 @@ import GlobeModel from './components/GlobeModel';
 function App() {
 
   useEffect(() => {
-    if (window.location.href == "https://gnec-hackathon.github.io/Website") {
+    if (window.location.href.includes("gnec-hackathon.github.io")) {
       window.location.href = "https://gnec.ngo/hackathon-2023";
     }
   })
