@@ -83,6 +83,9 @@ export default function App() {
         </MDBCollapse>
 
         <MDBNavbarBrand href='#'>
+            <MDBBtn className='me-3' outline href='https://drive.google.com/drive/u/2/folders/1QtPGBwVUJsZU5xlnUzvsSFrRnv08i6uw' target='_blank' rounded color='light' style={{fontFamily: "Montserrat", borderWidth: 1, fontSize: 14}}>
+                Press Kit
+            </MDBBtn>
             <MDBBtn href='https://devpost.com/submit-to/17998-gnec-hackathon/manage/submissions' target='_blank' rounded color='light' style={{fontFamily: "Montserrat", borderWidth: 1, fontSize: 14}}>
                 Register
             </MDBBtn>
