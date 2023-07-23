@@ -35,9 +35,15 @@ function App() {
       </div>
       <img src={"./assets/images/TopTransition.png"} style={{width: "100%", marginTop: -600}}/>
       <div className='about' style={{width: "100%", backgroundColor:  "#171717", padding: 50, marginTop: -350}}>
+        <center>
+          <h3 style={{color: "white", marginBottom: 25}}>NEW: WATCH OPENING CEREMONY NOW</h3>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/LXB61MppXu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </center>
+
         <MDBRow style={{
             width: "100%",
             justifyContent: "center",
+            marginTop: 100
           }}>
           <MDBCol size='12' sm='5'>
             <h1 style={{fontFamily: "Montserrat", fontSize: 40, color: "white", fontWeight: "bold"}}>ABOUT</h1>
