@@ -34,7 +34,7 @@ function App() {
         </p>
       </div>
       <img src={"./assets/images/TopTransition.png"} style={{width: "100%", marginTop: -600}}/>
-      <div className='about' style={{width: "100%", backgroundColor:  "#171717", padding: 50, marginTop: -350}}>
+      {/* <div className='about' style={{width: "100%", backgroundColor:  "#171717", padding: 50, marginTop: -350}}>
         <center>
           <h3 style={{color: "white", marginBottom: 25}}>NEW: WATCH OPENING CEREMONY NOW</h3>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/LXB61MppXu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -100,8 +100,13 @@ function App() {
         <p style={{fontFamily: "Montserrat", color: "#A4E9FF", fontWeight: "bold", marginTop: 50}}>Meet our</p>
         <h1 className='partners' style={{fontFamily: "Montserrat", fontSize: 40, color: "#171717", fontWeight: "bold", marginBottom: 50}}>ESTEEMED PANEL OF JUDGES</h1>
         <img src={"./assets/images/Judge.png"} style={{width: "100%"}}/>
-      </center>
-      <NavBar />
+      </center> */}
+      <a href="https://gnec-hackathon-2023.devpost.com/">
+        <center style={{marginTop: -350}}>
+          <img src={"./assets/images/Devpost.png"} style={{width: "25%"}}/>
+        </center>
+      </a>
+      {/* <NavBar /> */}
     </div>
   );
 }
