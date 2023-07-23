@@ -101,7 +101,7 @@ function App() {
         <h1 className='partners' style={{fontFamily: "Montserrat", fontSize: 40, color: "#171717", fontWeight: "bold", marginBottom: 50}}>ESTEEMED PANEL OF JUDGES</h1>
         <img src={"./assets/images/Judge.png"} style={{width: "100%"}}/>
       </center> */}
-      <a href="https://gnec-hackathon-2023.devpost.com/">
+      <a href="https://gnec-hackathon-2023.devpost.com/" target='_blank'>
         <center style={{marginTop: -350}}>
           <img src={"./assets/images/Devpost.png"} style={{width: "25%"}}/>
         </center>
